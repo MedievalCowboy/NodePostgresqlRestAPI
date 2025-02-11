@@ -1,0 +1,33 @@
+{
+  "name": "nodepostgresapi",
+  "version": "1.0.0",
+  "description": "Proyecto de prueba de Nodejs + Postgresql generando API. Proyecto en crecimiento.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch --env-file=.env src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MedievalCowboy/NodePostgresqlRestAPI.git"
+  },
+  "author": "RicardoA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MedievalCowboy/NodePostgresqlRestAPI/issues"
+  },
+  "homepage": "https://github.com/MedievalCowboy/NodePostgresqlRestAPI#readme",
+  "dependencies": {
+    "@prisma/client": "^6.3.1",
+    "express": "^4.21.2",
+    "morgan": "^1.10.0",
+    "pg": "^8.13.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.1",
+    "prisma": "^6.3.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}
